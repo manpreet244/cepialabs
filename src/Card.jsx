@@ -1,5 +1,5 @@
 import React from 'react';
-import aeroo from './assets/aeroo.jpg';
+// Image now served from public folder
 import { FaArrowRight } from 'react-icons/fa';
 
 
@@ -19,7 +19,7 @@ const Card = () => (
       </div>
     </div>
     <div className="w-[220px] h-[180px] flex items-center justify-center rounded-xl relative overflow-hidden ml-8">
-      <img src={aeroo} alt="Rocket" className="w-full h-full rounded-xl  object-cover z-10" />
+    <img src="/aeroo.jpg" alt="Rocket" className="w-full h-full rounded-xl border object-cover z-10" />
     </div>
   </div>
 );
